@@ -1,60 +1,76 @@
-*{
-    margin:0;
-    padding:0;
+body{
+    background-color: black;
+    background-image: url(image/Background-Levroché\ le\ coup-resturant.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px
+    
 }
 
-.wrapper{
-    width:100%;
+header {
+    height: 500px;
+    text-align: center;
 }
 
-.img-banner{
-    display: none;
+nav {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 14px;
 }
 
-
-.img-info{
-    width:100%
+main {
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px; 
+    
 }
 
-.img-info h2 { 
-    padding:30px 30 px 20px;
-    font-family: sans-serif;
-    font-size: 60px;
-    color:#A9A9A9;
-    line-height: 50px;
+footer {
+    padding-bottom: 1000px;
 }
 
-.img-info p { 
-    padding:0px 30 px 20px;
-    font-family: sans-serif;
-    font-size: 45px;
-    color:#A9A9A9;
-    line-height: 53px;
+h2 {
+    font-size: 64px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-me{
-    width:100%;
+p {
+  font-size: 25px;
+  color: rgb(87, 34, 87);
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
-@media only screen and(min-width: 560px){
-    .img-banner{
-    display: block;
-    width: 100%;
-    padding-bottom: 29px;
-}
-
-.wrapper{
-    width:400px;
-    margin:0 auto;
-}
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 
 }
 
-.img-info h2 { 
-    padding:30px 0 px 30px;
+nav a{
+    text-decoration: underline;
 }
 
-.img-info p { 
-    padding:30px 0 px 0px;
+footer p{
+    font-size: 10px;
+    text-align: bottom;
+
 }
 
+.maps{
+    padding-bottom: 100px;
+
+}
+
+.gallery {
+    padding-right: auto;
+    padding-left: auto;
+}
